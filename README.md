@@ -86,7 +86,7 @@ b. Configure the AWS in local machine
 
      (This code helps to us install the system monitoring library  in over project)
 
-### 3. Create .txt file it's name is "requirements.txt" and run the command,
+### 2. Create .txt file it's name is "requirements.txt" and run the command,
 
   - Include that into Python dependencies
     <img width="1914" height="1021" alt="image" src="https://github.com/user-attachments/assets/1a1c6f9d-e188-4ff7-802a-d475bd13793d" />
@@ -103,6 +103,64 @@ b. Configure the AWS in local machine
     <img width="1912" height="883" alt="image" src="https://github.com/user-attachments/assets/3506ae2c-a075-41cb-960d-11b8138b1780" />
 
     *** Important Note= If you not save that file ,that is not work!
+
+    - After install that modules, run the [app.py](http://app.py) application locally,
+    
+        <img width="419" height="73" alt="Screenshot 2025-10-27 093049" src="https://github.com/user-attachments/assets/68bc9b54-7c26-42dd-b236-ffd4d27c0e37" />
+
+    
+    - if you are  correctly follow above path you can see,
+        
+        <img width="1919" height="960" alt="Screenshot 2025-10-27 093258" src="https://github.com/user-attachments/assets/30da5f9f-461f-4a88-a720-c708c760a0a6" />
+
+        
+
+- Now, Started running a **development web server** and  **accessible in your browser** at:http://127.0.0.1:5000
+
+   <img width="1909" height="963" alt="Screenshot 2025-10-27 094920" src="https://github.com/user-attachments/assets/7b5f3b65-0c89-4db8-9b46-e84558b9a29f" />
+
+    
+    
+    
+    (You can refresh  and see changing  the CPU usage and Memory Usage)
+    
+- Stop the development web server..(To stop that  ,go to that running terminal and press Ctrl + c )
+
+### 3. Style the app.py using HTML
+
+- Create a "templates" folder,
+  <img width="946" height="572" alt="Screenshot 2025-10-27 101854" src="https://github.com/user-attachments/assets/b4d0710c-7d3b-4fd3-bf64-17c218be8be2" />
+  
+- In that folder,create a sub file in "index.html"
+    <img width="1639" height="615" alt="image" src="https://github.com/user-attachments/assets/af191484-8596-44a1-8e4d-750763e9dca1" />
+
+- Now ,copy the code into index.html
+  
+  <img width="1356" height="735" alt="image" src="https://github.com/user-attachments/assets/88fb116d-37c2-4f03-99f2-c03b6acb4996" />
+
+  <img width="1348" height="857" alt="image" src="https://github.com/user-attachments/assets/1a825acd-2cd5-48dc-8c67-535c51204929" />
+
+  <img width="1329" height="252" alt="image" src="https://github.com/user-attachments/assets/0a6ca22f-f265-42fb-b03b-4ad587db003a" />
+
+- Modify the app.py file ,
+  
+ <img width="1481" height="929" alt="Screenshot 2025-10-27 110559" src="https://github.com/user-attachments/assets/643350d0-e40f-42fc-88c0-bee5275f70ff" />
+
+
+- Now Save the changes..
+
+
+### 4. Rerun the **development web server** and  **accessible in your browser**
+
+-Open the VS code terminal and rerun the app.py (python app.py)
+
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/38790c8f-eb32-4af1-91f6-676d09419dc6" />
+
+ - Then you can accessible in browser in: http://127.0.0.1:5000
+
+
+
+
     
 
 
