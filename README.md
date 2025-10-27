@@ -74,7 +74,8 @@ b. Configure the AWS in local machine
    - Include the code
      (Creating Monitoring application in Python)
      
-     <img width="1547" height="990" alt="image" src="https://github.com/user-attachments/assets/6fa32254-1c8a-4c23-ac8a-1b70f03522be" />
+     <img width="1919" height="991" alt="image" src="https://github.com/user-attachments/assets/6cfbcbf3-9309-494c-a6cf-9db21217c624" />
+
 
 
 
@@ -96,9 +97,13 @@ b. Configure the AWS in local machine
 
 
     OUTPUT,
+    
     <img width="1916" height="938" alt="image" src="https://github.com/user-attachments/assets/907303b6-31da-4cac-93be-71619e213b8b" />
 
     <img width="1912" height="883" alt="image" src="https://github.com/user-attachments/assets/3506ae2c-a075-41cb-960d-11b8138b1780" />
+
+    *** Important Note= If you not save that file ,that is not work!
+    
 
 
 
