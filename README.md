@@ -156,9 +156,32 @@ b. Configure the AWS in local machine
 
 <img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/38790c8f-eb32-4af1-91f6-676d09419dc6" />
 
- - Then you can accessible in browser in: http://127.0.0.1:5000
+ - Then you can accessible in browser in: http://127.0.0.1:5000 (our python web server)
+   <img width="1877" height="962" alt="Screenshot 2025-10-27 111128" src="https://github.com/user-attachments/assets/e438c974-9f34-4da6-9611-d256e4c8ebd4" />
 
+### 5. Dockerize the develop application. 
 
+- Stop Runing our application.
+  Going to VS code turminal and press "CTRL+C"
+
+- Create a **Dockerfile**,
+  <img width="1737" height="724" alt="Screenshot 2025-10-27 174140" src="https://github.com/user-attachments/assets/7e008305-d900-4720-9fc0-5c10eb4d7469" />
+
+- Dockerize that(The code will be explain what it do and dockerized your )
+  <img width="1918" height="994" alt="image" src="https://github.com/user-attachments/assets/0bb73432-6e15-4047-b974-a3c90365eb24" />
+   # **Specila Resources**
+      - Find the image tipe : https://hub.docker.com/_/python
+
+    ****(Now we have a Docker file then we have to build the Docker Image.)****
+
+- Open the VS code Terminal,
+
+  Type the **"docker build -t my-first-app ."** and run that command
+  (This command not run you are not open the local Docker.Firstly you open the Docker and Sign your account)
+  
+  
+
+  
 
 
     
