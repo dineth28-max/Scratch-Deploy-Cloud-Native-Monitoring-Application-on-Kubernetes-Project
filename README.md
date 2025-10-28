@@ -229,10 +229,23 @@ b. Configure the AWS in local machine
 - Now popup the **"Push commands for my-repo"** and follow that guidelines step by step. (you have to get the copy that command and past into your VS Terminal)
   <img width="1017" height="865" alt="image" src="https://github.com/user-attachments/assets/adbe0230-840e-4770-bdc2-603acbc5c3e7" />
 
-  **"After that steps"**
-  
+  ## The that Steps,
+ <img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/b37629c6-f6a8-47e8-8e69-7b81d695cf15" />
  
+   **"After that steps"**
+  
+ you can see the image in my-repo (refresh the page)
+ <img width="1914" height="961" alt="image" src="https://github.com/user-attachments/assets/8eb8e2c1-c898-48a8-909f-0dba33cd59fc" />
 
+### 8.Create a EKS Cluster
+- Going to Amazon Elastic Kubernetes Service and Press the Create cluster button
+   <img width="1919" height="918" alt="Screenshot 2025-10-28 131155" src="https://github.com/user-attachments/assets/f5a55080-126a-4ed9-aa16-5de3cf16454e" />
+- Fill that step by step and Create the EKS Cluster
+  <img width="1918" height="902" alt="Screenshot 2025-10-28 131453" src="https://github.com/user-attachments/assets/ed5cb9bf-47fc-4dfd-a4b1-58c9cde09f74" />
+- You have to wait few minute for that create a cluster,
+  <img width="1919" height="961" alt="Screenshot 2025-10-28 132428" src="https://github.com/user-attachments/assets/58ab55af-32a3-42e7-8910-5206e2cd38e1" />
+
+    
   
  
     
