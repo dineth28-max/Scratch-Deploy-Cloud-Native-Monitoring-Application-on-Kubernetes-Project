@@ -203,7 +203,38 @@ b. Configure the AWS in local machine
 
 ### **6. Create ECR using Python Boto3**
 
-    
+(This is the Boto3 documantation in ECR = https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ecr.html )
+
+- Create a new file in vs code, and name that **"ecr.py"**
+  <img width="1154" height="691" alt="Screenshot 2025-10-28 093046" src="https://github.com/user-attachments/assets/118d2210-fb3d-4b8b-8c8a-793b4fa9464c" />
+
+- **Copy the code into ecr.py**
+      <img width="1919" height="987" alt="image" src="https://github.com/user-attachments/assets/044a67c5-9e1b-4b3c-aecd-8b008577bdb0" />
+    (This mean we make the AWS ECR new repo using above code)
+    (Save that code !)
+- After that open the VS Code Terminal and run that command (python ecr.py),
+  (Is that not work! firstly, you Create a fresh virtual environment and after run that)
+  <img width="520" height="49" alt="image" src="https://github.com/user-attachments/assets/5a2b0004-3437-46da-84ce-91c64f2f9ef1" />
+  ## ** Now we successfully make the ECR in your aws account **
+  
+- Go to Your AWS console and move the ECR Repositories,
+  <img width="1919" height="1015" alt="Screenshot 2025-10-28 100435" src="https://github.com/user-attachments/assets/cbe0e9ad-06a7-4563-b939-29d793435640" />
+
+### 7. Push the Image into ECR
+- Going to the our "my-repo" inside ,you can see nothing!
+  <img width="1919" height="809" alt="image" src="https://github.com/user-attachments/assets/49ac3fa4-0f55-4786-98a9-8a3905655eb8" />
+  (Now we have to push the images into  that )
+- Click the "View push commands " button,
+  <img width="1919" height="1008" alt="Screenshot 2025-10-28 101157" src="https://github.com/user-attachments/assets/f319186c-eebc-4d0b-8033-99a3de365b96" />
+- Now popup the **"Push commands for my-repo"** and follow that guidelines step by step. (you have to get the copy that command and past into your VS Terminal)
+  <img width="1017" height="865" alt="image" src="https://github.com/user-attachments/assets/adbe0230-840e-4770-bdc2-603acbc5c3e7" />
+
+  **"After that steps"**
+  
+ 
+
+  
+ 
     
 
 
