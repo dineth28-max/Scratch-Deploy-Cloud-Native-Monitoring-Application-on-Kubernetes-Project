@@ -89,7 +89,8 @@ b. Configure the AWS in local machine
 ### 2. Create .txt file it's name is "requirements.txt" and run the command,
 
   - Include that into Python dependencies
-    <img width="1914" height="1021" alt="image" src="https://github.com/user-attachments/assets/1a1c6f9d-e188-4ff7-802a-d475bd13793d" />
+    <img width="1459" height="671" alt="image" src="https://github.com/user-attachments/assets/4c205edf-8717-484a-9567-c6f159e8c325" />
+
 
   - Run the code,
     
@@ -176,8 +177,36 @@ b. Configure the AWS in local machine
 
 - Open the VS code Terminal,
 
-  Type the **"docker build -t my-first-app ."** and run that command
+- Type the **"docker build -t my-first-app ."** in VS code and run that command
+ 
   (This command not run you are not open the local Docker.Firstly you open the Docker and Sign your account)
+  <img width="606" height="97" alt="image" src="https://github.com/user-attachments/assets/20003f0b-10e1-47cc-a219-cd7a85df94ab" />
+  output,
+  <img width="1298" height="616" alt="image" src="https://github.com/user-attachments/assets/6026e093-1cf1-4974-ac05-6646cd177072" />
+
+  (wait a few secound for that ,all the dependencies are install the docker Image.)
+    -After few secound,you can see your Docker image in your local Dockerhub.
+     <img width="1913" height="1011" alt="image" src="https://github.com/user-attachments/assets/b7b667cb-2003-4ee5-bc71-56762437a752" />
+
+  # now We are create a Docker Image then now we have to build the Docker Container,
+
+  - Type the **"docker images"** in VS Code and run the Command
+    <img width="639" height="57" alt="image" src="https://github.com/user-attachments/assets/2b3d14a2-b4b5-4e82-a563-a24a6e2d2dd4" />
+
+  - Type the **"docker run -p 5000:5000 **{image ID}** "** in VS Code and run the command,
+    (image ID mean This is the id of the docker image you created, you can get it from the step above.My image ID = c628931fbee7  )
+        <img width="1290" height="337" alt="image" src="https://github.com/user-attachments/assets/67af5257-31c7-4abc-8955-aa99a8e47d6e" />
+- Now open the browser and run that  Running on http://127.0.0.1:5000 ,
+  <img width="1919" height="974" alt="image" src="https://github.com/user-attachments/assets/fc79d00a-4292-41ce-adca-946efe18e184" />
+ (Is that work,Then it meaning is your are correctly build a Docker Container)
+
+
+### **6. Create ECR using Python Boto3**
+
+    
+    
+
+
   
   
 
