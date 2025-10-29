@@ -244,6 +244,9 @@ b. Configure the AWS in local machine
   <img width="1918" height="902" alt="Screenshot 2025-10-28 131453" src="https://github.com/user-attachments/assets/ed5cb9bf-47fc-4dfd-a4b1-58c9cde09f74" />
 - You have to wait few minute for that create a cluster,
   <img width="1919" height="961" alt="Screenshot 2025-10-28 132428" src="https://github.com/user-attachments/assets/58ab55af-32a3-42e7-8910-5206e2cd38e1" />
+- Afetr it Create , you can see the status in "Active"
+  <img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/7333feea-ea05-4b67-a750-dd966907c668" />
+  
 
     
   
