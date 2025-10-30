@@ -246,10 +246,45 @@ b. Configure the AWS in local machine
   <img width="1919" height="961" alt="Screenshot 2025-10-28 132428" src="https://github.com/user-attachments/assets/58ab55af-32a3-42e7-8910-5206e2cd38e1" />
 - Afetr it Create , you can see the status in "Active"
   <img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/7333feea-ea05-4b67-a750-dd966907c668" />
-  
 
-    
+### 9. Create Node groups in EKS(inside our Flask-app)
+- Drive to the our clustees(Flask-app) and choose the Compute
+  <img width="1917" height="941" alt="image" src="https://github.com/user-attachments/assets/8ef3159f-ae4f-4a32-aa5c-0ac4290ff4c1" />
+- And Scroll Down to Our Node groups and press the Add node group.
+  <img width="1918" height="961" alt="image" src="https://github.com/user-attachments/assets/a5ea4dd3-edc4-47bd-83b8-946d4bcc00f5" />
+- Fill that steps and give "Next"
+  <img width="1918" height="905" alt="image" src="https://github.com/user-attachments/assets/70a46ea9-4518-49b3-802c-1cdd6eda3876" />
+
+- Chanage the instance Type and give the **next**
+<img width="1479" height="893" alt="Screenshot 2025-10-30 093107" src="https://github.com/user-attachments/assets/067dc3d9-aab3-4dd4-ac4f-3c118443d005" />
+
+- Give the Next option.
+<img width="1917" height="926" alt="image" src="https://github.com/user-attachments/assets/757b026e-9294-4d7b-a24d-aff16c0759fc" />
+
   
+- Now, Create a Node group.
+  <img width="1919" height="898" alt="Screenshot 2025-10-30 094106" src="https://github.com/user-attachments/assets/5c0e6b09-cb42-42d5-9364-77f97e7d3e01" />
+- It's get some time,
+  <img width="1918" height="982" alt="image" src="https://github.com/user-attachments/assets/5c77eb8b-d2b1-4f3d-a91b-98ca26245385" />
+
+### 10. Create Kubernetes Deployment and Service using Kubernetes.
+( You can read that Artical , Get the Knowlage "What is the Kubernetes Deployment?" = https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+( You can read that Artical , Get the Knowlage "What is the Kubernetes Service?" = https://kubernetes.io/docs/concepts/services-networking/service/ )
+**"If you are read that Artical,I think you have a good knowlage about Kubernetes Deployment and Service."**
+
+
+- Now,Go to VS code and Create a new file in **eks.py**.
+  <img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/a5e673fc-1fde-4235-91c8-5c38016fb745" />
+  
+- Copy that code into  your **eks.py**,
+  (you can read that artical get some knowlage = https://pypi.org/project/kubernetes/)
+  <img width="1919" height="991" alt="image" src="https://github.com/user-attachments/assets/114eb5bc-372a-43f6-ac20-886c85ed9bbd" />
+  
+  <img width="1918" height="1015" alt="image" src="https://github.com/user-attachments/assets/342c5156-7e18-4e33-b5e8-eabf2ae1ed02" />
+
+- After that ,open Vs terminal (or cmd) and add the command **aws eks update-kubeconfig --name Flask-app** (run that)
+    <img width="1542" height="185" alt="image" src="https://github.com/user-attachments/assets/36e2c8d3-f0d4-4117-931f-7076f88d79ee" />
+- Add the **kubectl get ns**    
  
     
 
