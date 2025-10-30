@@ -331,7 +331,8 @@ b. Configure the AWS in local machine
 - Add the **kubectl get ns**
   
   <img width="503" height="180" alt="image" src="https://github.com/user-attachments/assets/df23d529-a636-4d1c-9563-52cb88b07a1f" />
-      - (if that not work! your IAM user is not rightly enter )
+
+  - (if that not work! your IAM user is not rightly enter )
 - After that Change the **Containers Image URl**,
   
   <img width="1915" height="1016" alt="image" src="https://github.com/user-attachments/assets/6b20c25d-086e-413b-aa2e-46e264347ec2" />
