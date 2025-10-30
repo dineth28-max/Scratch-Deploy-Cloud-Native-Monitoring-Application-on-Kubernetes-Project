@@ -315,10 +315,15 @@ b. Configure the AWS in local machine
   <img width="786" height="117" alt="image" src="https://github.com/user-attachments/assets/47535a7d-6c7e-4d60-9cc7-25677608daeb" />
 ### 11. Port Forward Kubernetes Service and Access the Application.
 -Run that command **"kubectl port-forward svc/my-flask-service 5000:5000"**
+<img width="845" height="89" alt="image" src="https://github.com/user-attachments/assets/cca4f38e-ec07-4d9a-9385-cb2fcedca207" />
+output
+<img width="496" height="63" alt="Screenshot 2025-10-30 141547" src="https://github.com/user-attachments/assets/0846087d-5fd9-4a50-80ce-d167710afb56" />
 
--Open the web brower and copy the url,and search. 
+-Open the web brower and type **"localhost:5000"** (or http://127.0.0.1:5000 ,http://172.31.0.225:5000)
+Scratch-Deploy Cloud Native Monitoring Application on Kubernetes Project
+
     
-
+## You are Successfuly Done that Project!
 
   
   
