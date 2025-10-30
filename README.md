@@ -57,6 +57,9 @@ b. Configure the AWS in local machine
 
 ### Firstly , we will the going to see the architecture  Diagram,
 
+<img width="1280" height="720" alt="Build the python app" src="https://github.com/user-attachments/assets/9b2f56bb-7ee6-40a7-a90e-df7a10bcba7f" />
+
+
 
 
 
