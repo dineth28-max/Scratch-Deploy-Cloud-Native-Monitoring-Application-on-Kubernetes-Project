@@ -284,8 +284,39 @@ b. Configure the AWS in local machine
 
 - After that ,open Vs terminal (or cmd) and add the command **aws eks update-kubeconfig --name Flask-app** (run that)
     <img width="1542" height="185" alt="image" src="https://github.com/user-attachments/assets/36e2c8d3-f0d4-4117-931f-7076f88d79ee" />
-- Add the **kubectl get ns**    
- 
+- Add the **kubectl get ns**
+  <img width="503" height="180" alt="image" src="https://github.com/user-attachments/assets/df23d529-a636-4d1c-9563-52cb88b07a1f" />
+  (if that not work! your IAM user is not rightly enter )
+- After that Change the **Containers Image URl**,
+  <img width="1915" height="1016" alt="image" src="https://github.com/user-attachments/assets/6b20c25d-086e-413b-aa2e-46e264347ec2" />
+  (Go to ECR and copy the URL)
+      <img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/a0f7923d-ca1a-4c4c-a015-6ceec5c154c1" />
+    (And Past it)
+      <img width="1898" height="998" alt="image" src="https://github.com/user-attachments/assets/cc89ca9d-3b4c-458e-bc04-cd2585b951d6" />
+
+- Run the eks.py (Type the VS code terminal **eks.py**
+  <img width="1222" height="74" alt="image" src="https://github.com/user-attachments/assets/e63888d8-25b5-4a83-bb24-b738f531a7b5" />
+
+  ## ***(Now we cheack aboue code is work)***
+
+- Run the command in  **"kubectl get pods -n default -w "**
+  (This command is extremely useful when you’re deploying apps or debugging pods and want to see real-time changes without running the command repeatedly)
+  <img width="676" height="108" alt="image" src="https://github.com/user-attachments/assets/e6d59140-9470-43d6-b007-8958120c0418" />
+    (Stop that! **CTRL+C**)
+- Run the command in  **" kubectl get deployment -n default "**
+
+  (This command is extremely useful when you’re deploying applications or managing deployments and want to quickly check the status of your deployments (number of pods ready, updated, and available) in the default namespace, without digging into individual pods.)
+  
+  <img width="605" height="65" alt="image" src="https://github.com/user-attachments/assets/ed135396-567b-47bf-bb7e-2e3771d71f85" />
+  
+- Run the command in  **" kubectl get svc -n default "**
+  (This command is extremely useful when you want to check the status of services in your cluster, including their IP addresses, ports, and type (ClusterIP, NodePort, LoadBalancer), in the default namespace. It helps you verify connectivity and expose your applications without inspecting each pod individually.)
+  
+  <img width="786" height="117" alt="image" src="https://github.com/user-attachments/assets/47535a7d-6c7e-4d60-9cc7-25677608daeb" />
+### 11. Port Forward Kubernetes Service and Access the Application.
+-Run that command **"kubectl port-forward svc/my-flask-service 5000:5000"**
+
+-Open the web brower and copy the url,and search. 
     
 
 
